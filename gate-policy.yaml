@@ -1,0 +1,6 @@
+gate: length
+applies_to: orion-7b
+checks:
+  max_final_truncation_ratio: 0.05
+  min_final_mean_answer_tokens: 350
+  max_final_token_entropy: 2.00
